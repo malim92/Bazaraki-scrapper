@@ -1,3 +1,7 @@
-com\bs\bazarakiscrapper\Services\GreetingService.class
-com\bs\bazarakiscrapper\App.class
+com\bs\bazarakiscrapper\controllers\GreetingController.class
+com\bs\bazarakiscrapper\controllers\ScraperController.class
+com\bs\bazarakiscrapper\model\AdListing.class
 com\bs\bazarakiscrapper\SpringApp.class
+com\bs\bazarakiscrapper\JavaFXApp.class
+com\bs\bazarakiscrapper\services\WebScraperService.class
+com\bs\bazarakiscrapper\services\GreetingService.class

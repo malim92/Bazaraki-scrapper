@@ -1,4 +1,4 @@
-package com.bs.bazarakiscrapper.Services;
+package com.bs.bazarakiscrapper.services;
 
 import org.springframework.stereotype.Service;
 

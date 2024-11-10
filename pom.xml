@@ -28,8 +28,12 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-    
     <dependencies>
+    <dependency>
+        <groupId>org.jsoup</groupId>
+        <artifactId>jsoup</artifactId>
+        <version>1.15.4</version>
+    </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -78,7 +82,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.8</version>
                 <configuration>
-                    <mainClass>com.bs.bazarakiscrapper.App</mainClass>
+                    <mainClass>com.bs.bazarakiscrapper.JavaFXApp</mainClass>
                 </configuration>
             </plugin>
         </plugins>
