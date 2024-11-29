@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.bs.bazarakiscrapper</groupId>
+  <groupId>com.bazarakiscrapper</groupId>
   <artifactId>bazaraki-scrapper</artifactId>
   <version>1.0-SNAPSHOT</version>
 
@@ -58,6 +58,11 @@
             <version>22.0.1</version>
         </dependency>
     </dependencies>
+    <dependency>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-graphics</artifactId>
+        <version>21</version>
+    </dependency>
 
     <build>
         <plugins>
@@ -81,8 +86,15 @@
                 <groupId>org.openjfx</groupId>
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.8</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+                </executions>
                 <configuration>
-                    <mainClass>com.bs.bazarakiscrapper.JavaFXApp</mainClass>
+                    <mainClass>com.bazarakiscrapper.JavaFXApp</mainClass>
                 </configuration>
             </plugin>
         </plugins>
