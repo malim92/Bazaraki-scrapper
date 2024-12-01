@@ -1,0 +1,93 @@
+/* Spotify-inspired Dark Theme CSS */
+.main-background {
+    -fx-background-color: #121212;
+}
+
+.top-bar {
+    -fx-background-color: #1E1E1E;
+    -fx-alignment: center-left;
+}
+
+.app-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+}
+
+.search-field {
+    -fx-background-color: #282828;
+    -fx-text-fill: #FFFFFF;
+    -fx-prompt-text-fill: #B3B3B3;
+    -fx-background-radius: 20;
+    -fx-padding: 10px;
+}
+
+.spotify-button {
+    -fx-background-radius: 20;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 14px;
+}
+
+.primary-button {
+    -fx-background-color: #1DB954;
+    -fx-text-fill: #FFFFFF;
+}
+
+.primary-button:hover {
+    -fx-background-color: #1ED760;
+}
+
+.result-area {
+    -fx-control-inner-background: #282828;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 10;
+    -fx-font-size: 14px;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+.ad-listing-listview {
+    -fx-background-color: #282828;
+}
+
+.ad-listing-listview .list-cell {
+    -fx-background-color: #282828;
+    -fx-text-fill: #FFFFFF;
+    -fx-padding: 10px;
+}
+
+.ad-listing-listview .list-cell:hover {
+    -fx-background-color: #383838;
+}
+
+.dialog-title {
+    -fx-font-size: 18px;
+    -fx-fill: #1DB954;
+    -fx-font-weight: bold;
+}
+
+.dialog-label {
+    -fx-fill: #B3B3B3;
+    -fx-font-weight: bold;
+}
+
+.dialog-value {
+    -fx-fill: #FFFFFF;
+}
+
+.ad-title {
+    -fx-font-size: 16px;
+    -fx-fill: #FFFFFF;
+    -fx-font-weight: bold;
+}
+
+.ad-details {
+    -fx-font-size: 12px;
+    -fx-fill: #B3B3B3;
+}

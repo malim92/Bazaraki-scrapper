@@ -1,4 +1,5 @@
 com\bazarakiscrapper\utils\ScraperProperties.class
+com\bazarakiscrapper\view\AdListingFormatter.class
 com\bazarakiscrapper\controllers\ScraperController.class
 com\bazarakiscrapper\model\AdListing.class
 com\bazarakiscrapper\services\WebScraperService.class
