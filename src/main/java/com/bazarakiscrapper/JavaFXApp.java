@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.stereotype.Component;
-
+import org.scenicview.ScenicView;
 import com.bazarakiscrapper.controllers.ScraperController;
 
 @Component
@@ -33,12 +33,14 @@ public class JavaFXApp extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
+        
         // Set up the JavaFX UI and integrate with Spring beans
         primaryStage.setTitle("Bazaraki Scraper");
         
         Scene scene = new Scene(ScraperController.createRootLayout(), 1000, 700);
         scene.getStylesheets().add(getClass().getResource("/styles.css").toExternalForm());
-        
+        ScenicView.show(scene);
+
         primaryStage.setScene(scene);
         primaryStage.show();
     }

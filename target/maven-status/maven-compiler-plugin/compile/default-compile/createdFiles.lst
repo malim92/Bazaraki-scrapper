@@ -1,9 +1,11 @@
 com\bazarakiscrapper\utils\ScraperProperties.class
-com\bazarakiscrapper\view\AdListingFormatter.class
-com\bazarakiscrapper\controllers\ScraperController.class
-com\bazarakiscrapper\model\AdListing.class
-com\bazarakiscrapper\services\WebScraperService.class
 com\bazarakiscrapper\SpringApp.class
 com\bazarakiscrapper\services\GreetingService.class
 com\bazarakiscrapper\JavaFXApp.class
+com\bazarakiscrapper\view\AdListingFormatter.class
+com\bazarakiscrapper\controllers\ScraperController.class
+com\bazarakiscrapper\model\AdListingViewController.class
+com\bazarakiscrapper\model\AdListing.class
+com\bazarakiscrapper\services\WebScraperService.class
+com\bazarakiscrapper\model\AdListingViewController$1.class
 com\bazarakiscrapper\controllers\GreetingController.class

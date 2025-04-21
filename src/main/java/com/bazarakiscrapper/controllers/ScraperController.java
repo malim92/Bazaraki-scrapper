@@ -59,6 +59,7 @@ public class ScraperController {
         VBox contentArea = new VBox(20);
         contentArea.getStyleClass().add("content-area");
         contentArea.setPadding(new Insets(20));
+        contentArea.setPrefHeight(Double.MAX_VALUE);
 
         // Result area with scrollpane for better styling
         resultArea = new TextArea();
@@ -131,8 +132,8 @@ public class ScraperController {
         });
 
         resultArea = new TextArea();
-        resultArea.setPrefHeight(400);
-        resultArea.setPrefWidth(600);
+        // resultArea.setPrefHeight(400);
+        // resultArea.setPrefWidth(600);
         resultArea.setWrapText(true);
 
         VBox layout = new VBox(10, priceTextField, scrapeButton, resultArea);
